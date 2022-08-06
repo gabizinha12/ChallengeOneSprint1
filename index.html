@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto - Challenge ONE</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="logo">
+      <img src="./assets/logo.svg" alt="Logo Alura" />
+    </section>
+    <h1>Decodificador</h1>
+
+    <section class="input">
+      <textarea
+        placeholder="Digite seu texto"
+        class="input-criptografar"
+        id="texto"
+      ></textarea>
+    </section>
+    <button class="criptografa" id="cript" onclick="criptografa()">
+      Criptografar
+    </button>
+    <button class="descriptografa" id="descript" onclick="descriptografa()">
+      Descriptografar
+    </button>
+    <section class="resultado">
+      <textarea class="output-resultado"></textarea>
+      <img src="./assets/sem_texto.svg" alt="" />
+      <p>Digite um texto que deseja criptografar</p>
+    </section>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

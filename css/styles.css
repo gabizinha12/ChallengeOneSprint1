@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+.input {
+  background-color: #e5e5e5;
+  display: block;
+}
+.resultado {
+  width: 100%;
+  background-color: #e5e5e5;
+  display: block;
+}
+.input-criptografar {
+  background-color: #e5e5e5;
+  display: block;
+  color: #0a3871;
+  width: 560px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.output-resultado {
+  background-color: #e5e5e5;
+  display: block;
+  color: #0a3871;
+  width: 560px;
+  height: 400px;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+.criptografa {
+  background-color: #0a3871;
+  border-radius: 24px;
+  width: 324px;
+  padding: 24px;
+  height: 67px;
+  color: #ffff;
+  font-family: "Inter";
+}
+.descriptografa {
+  background-color: #d8dfe8;
+  border-radius: 24px;
+  width: 324px;
+  padding: 24px;
+  height: 67px;
+  font-family: "Inter";
+  color: #0a3871;
+}
